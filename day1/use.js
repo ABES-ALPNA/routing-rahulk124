@@ -1,0 +1,6 @@
+const data=require("./index11.js")
+console.log(data.sum(12,23))
+console.log(data.sub(23,12))
+const chalk = require("chalk")
+console.log(chalk.green("Hello with Chalk v4"))
+console.log(chalk.bgWhite("hello white color"))

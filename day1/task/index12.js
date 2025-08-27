@@ -1,0 +1,7 @@
+const data=require("fs")
+data.writeFileSync("hello.txt","Hello Node.js")
+const readData=data.readFileSync("hello.txt","utf-8")
+console.log(readData)
+data.appendFileSync("hello.txt","practice makes perfect")
+ const readData1=data.readFileSync("hello.txt","utf-8")
+console.log(readData1)
